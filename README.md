@@ -1,1 +1,1 @@
-# scripts
+ various shell scripts and obfuscations
