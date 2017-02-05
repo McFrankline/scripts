@@ -5,6 +5,7 @@ set -e
 
 
 # On MacOS, make sure shuf command is available
+#Useless MacOS commads. Must comment them later
 if uname | grep -q Darwin
 then
   which brew &> /dev/null || echo "please install brew: https://brew.sh" && exit 1
